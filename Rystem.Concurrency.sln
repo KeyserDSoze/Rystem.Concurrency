@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rystem.Concurrency", "src\Rystem.Concurrency\Rystem.Concurrency.csproj", "{1CF9408A-EA70-4F1F-B8C9-059F6B52444E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rystem.Concurrency.UnitTest", "src\Test\Rystem.Concurrency.UnitTest\Rystem.Concurrency.UnitTest.csproj", "{42B72BC5-C816-4D5D-88C2-D5713D6046A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9587A7A5-3725-4609-BEAB-ECF7A44793AB}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\PackageDeploy.Rystem.Concurrency.yml = .github\workflows\PackageDeploy.Rystem.Concurrency.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rystem.Test", "Rystem.Test", "{919DA9A8-69DC-4937-990A-CB7063013A72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF9408A-EA70-4F1F-B8C9-059F6B52444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF9408A-EA70-4F1F-B8C9-059F6B52444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF9408A-EA70-4F1F-B8C9-059F6B52444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF9408A-EA70-4F1F-B8C9-059F6B52444E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B72BC5-C816-4D5D-88C2-D5713D6046A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B72BC5-C816-4D5D-88C2-D5713D6046A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B72BC5-C816-4D5D-88C2-D5713D6046A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B72BC5-C816-4D5D-88C2-D5713D6046A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42B72BC5-C816-4D5D-88C2-D5713D6046A3} = {919DA9A8-69DC-4937-990A-CB7063013A72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12F8263F-3610-408E-9C9D-32B5AE0C8A8A}
+	EndGlobalSection
+EndGlobal
