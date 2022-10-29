@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -19,14 +19,10 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/KeyserDSoze/Rystem.Concurrency</RepositoryUrl>
 		<PackageId>Rystem.Concurrency</PackageId>
-		<Version>2.0.6</Version>
+		<Version>3.0.15</Version>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Rystem.DependencyInjectionExtensions" Version="2.0.6" />
-	</ItemGroup>
 	
 	<ItemGroup>
 		<None Include="rystem.concurrency.png">
@@ -34,6 +30,10 @@
 			<PackagePath>\</PackagePath>
 		</None>
 		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="Rystem" Version="4.0.81" />
 	</ItemGroup>
 
 </Project>
